@@ -1,0 +1,23 @@
+Index: ../../readme.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Android App Automation Script\r\n\r\nThis script automates the testing process for a specific Android application, handling tasks such as installing the app, launching it, performing actions within the app, and uninstalling it afterwards. It utilizes tools like ADB (Android Debug Bridge), Androguard for APK analysis, and optionally UIAutomator for interacting with UI elements.\r\n\r\n## Prerequisites\r\n\r\nBefore running the script, ensure you have the following installed and set up on your system:\r\n\r\n- Python 3.x\r\n- ADB (Android Debug Bridge) - part of the Android SDK Platform-Tools package\r\n- Androguard\r\n- An Android device or emulator connected and visible to ADB (use `adb devices` to check)\r\n\r\n## Installation\r\n\r\n1. **Install Python dependencies**:\r\n\r\n    Open a terminal or command prompt and navigate to the project directory. Then run:\r\n\r\n    pip install androguard\r\n\r\n\r\n2. **Set up ADB**:\r\n\r\n    Ensure ADB is installed and your device/emulator is connected. You can download ADB from the Android SDK Platform-Tools package available on the Android developer website.\r\n\r\n3. **Prepare your device**:\r\n\r\n    - Enable Developer Options on your Android device.\r\n    - Enable USB Debugging within the Developer Options.\r\n\r\n## Running the Script\r\n\r\n1. **Modify the script**:\r\n\r\n    Open the Python script in your favorite text editor or IDE, and modify the `apk_path` variable to point to the location of your APK file on your local system.\r\n\r\n2. **Execute the script**:\r\n\r\n    Navigate to your project directory in a terminal or command prompt window and run:\r\n\r\n    python TaskAndroGuard.py\r\n\r\n\r\n## Understanding the Output\r\n\r\n- The script will print the package name, main activity, and other APK information to the console.\r\n- It will install the APK on the connected device or emulator, launch it, perform specified actions (e.g., clicking the \"SKIP\" button), extract and save the UI layout, and finally, uninstall the app.\r\n- The UI layout will be saved to a specified location on your local machine.\r\n\r\n## Troubleshooting\r\n\r\n- Ensure your device or emulator is correctly connected and visible to ADB by running `adb devices`.\r\n- If the script fails to find the device or execute commands, check your ADB and USB Debugging setup.\r\n- For issues related to Androguard or Python, ensure you have the correct versions installed and that your environment is set up correctly.\r\n\r\n\r\n\r\n## Contact\r\n\r\n[Maor Shiri] - [0545528704]\r\n\r\nhttps://github.com/maor1614/PythonAndroTask\r\n\r\nimages of the process-\r\nAndroid Device from android studio\r\n![Screenshot_9](https://github.com/maor1614/PythonAndroTask/assets/65109115/ee5388f3-2c12-4c35-b10a-118cf9fafa62)\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../readme.txt b/../../readme.txt
+--- a/../../readme.txt	
++++ b/../../readme.txt	
+@@ -62,9 +62,9 @@
+ 
+ https://github.com/maor1614/PythonAndroTask
+ 
+-images of the process-
+-Android Device from android studio
+-![Screenshot_9](https://github.com/maor1614/PythonAndroTask/assets/65109115/ee5388f3-2c12-4c35-b10a-118cf9fafa62)
++images of the process-Android Device from android studio
++
++![Screenshot_9](Screenshot_9.jpg)
+ 
+ 
+ 
