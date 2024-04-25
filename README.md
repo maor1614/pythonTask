@@ -1,4 +1,5 @@
 JSON Validation Project
+
 This project is a Python script designed to validate JSON files against a predefined schema. It ensures that JSON data used in applications adheres to expected formats, enhancing data integrity and reliability in development environments.
 
 Features
